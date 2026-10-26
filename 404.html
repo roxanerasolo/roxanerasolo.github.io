@@ -5,34 +5,35 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Page not found | InvestMatch</title>
 <meta name="description" content="Page not found.">
-<meta name="theme-color" content="#0d0a1c">
+<meta name="theme-color" content="#080a18">
+<link rel="icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="InvestMatch">
 <meta property="og:description" content="Page not found.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+
 <style>
   :root{
-    --ink:#0d0a1c; --ink-2:#161130; --line:rgba(238,233,247,0.10); --line-strong:rgba(238,233,247,0.20);
-    --text:#f2eef9; --muted:#aaa1c4; --muted-2:#776c96;
-    --violet-light:#cca3f0; --violet:#9461c7; --blue:#7cc4ff;
-    --sans:'Manrope', system-ui, -apple-system, "Segoe UI", sans-serif;
-    --round:'Nunito', var(--sans);
+    --ink:#080a18; --ink-2:#0d1431; --line:rgba(135,155,255,0.14); --line-strong:rgba(135,155,255,0.26);
+    --text:#f3f5ff; --muted:#aab4d2; --muted-2:#7681a6;
+    --violet-light:#39d8ff; --violet:#a05cff; --blue:#267aff;
+    --sans:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --round:var(--sans);
   }
   *{box-sizing:border-box;}
   html{background:var(--ink);}
-  body{background:var(--ink);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.65;margin:0;-webkit-font-smoothing:antialiased;}
+  body{background:radial-gradient(ellipse at 85% -10%,rgba(66,88,255,.18),transparent 45%),var(--ink);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.65;margin:0;-webkit-font-smoothing:antialiased;}
   a{color:var(--violet-light);}
   .wrap{max-width:760px;margin:0 auto;padding:0 20px 80px;}
-  nav{border-bottom:1px solid var(--line);background:rgba(13,10,28,0.85);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);position:sticky;top:0;z-index:10;}
+  nav{border-bottom:1px solid var(--line);background:rgba(6,8,21,0.88);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);position:sticky;top:0;z-index:10;}
   .nav-row{max-width:960px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;gap:16px;}
-  .brand{display:flex;align-items:center;gap:9px;font-family:var(--round);font-weight:900;font-size:19px;text-decoration:none;color:var(--text);}
+  .brand img{width:34px;height:34px;border-radius:9px;}
+  .brand{display:flex;align-items:center;gap:10px;font-family:var(--round);font-weight:900;font-size:19px;text-decoration:none;color:var(--text);}
   .nav-links{margin-left:auto;display:flex;gap:18px;font-size:14px;font-weight:600;}
   .nav-links a{color:var(--muted);text-decoration:none;}
   .nav-links a:hover{color:var(--text);}
-  .grad-text{background:linear-gradient(120deg,#fff,var(--violet-light) 55%,var(--blue));-webkit-background-clip:text;background-clip:text;color:transparent;}
-  h1{font-family:var(--round);font-weight:900;font-size:clamp(1.9rem,5vw,2.6rem);margin:48px 0 6px;letter-spacing:-0.01em;line-height:1.15;}
+  .grad-text{background:linear-gradient(100deg,#8fe6ff,#7aa8ff 50%,#c08bff);-webkit-background-clip:text;background-clip:text;color:transparent;}
+  h1{font-family:var(--round);font-weight:800;letter-spacing:-0.02em;font-size:clamp(1.9rem,5vw,2.6rem);margin:48px 0 6px;letter-spacing:-0.01em;line-height:1.15;}
   .updated{color:var(--muted-2);font-size:13.5px;font-weight:600;margin-bottom:34px;}
   h2{font-family:var(--round);font-weight:800;font-size:1.22rem;margin:38px 0 10px;}
   h3{font-family:var(--round);font-weight:800;font-size:1.05rem;margin:0 0 6px;}
@@ -41,7 +42,7 @@
   ul{margin:0 0 16px;padding-left:22px;}
   li{margin-bottom:8px;}
   strong{color:var(--text);font-weight:700;}
-  .callout{border:1px solid var(--line-strong);background:rgba(255,255,255,0.04);border-radius:16px;padding:18px 20px;margin:26px 0;}
+  .callout{border:1px solid var(--line-strong);background:linear-gradient(180deg,rgba(23,38,72,.7),rgba(18,29,61,.5));border-radius:16px;padding:18px 20px;margin:26px 0;}
   .callout p:last-child{margin-bottom:0;}
   table{width:100%;border-collapse:collapse;margin:0 0 20px;font-size:14.5px;}
   th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);color:var(--muted);vertical-align:top;}
@@ -82,7 +83,7 @@
 </head>
 <body>
 <nav><div class="nav-row">
-  <a class="brand" href="/"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="13" width="4" height="8" rx="1.4" fill="#7cc4ff"/><rect x="10" y="9" width="4" height="12" rx="1.4" fill="#7cc4ff"/><rect x="17" y="5" width="4" height="16" rx="1.4" fill="#7cc4ff"/><path d="M3 10.5 9.5 5l3.5 3L21 2.5" stroke="#cca3f0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Invest<span class="grad-text">Match</span></span></a>
+  <a class="brand" href="/"><img src="/assets/img/app-icon.webp" alt=""/><span>Invest<span class="grad-text">Match</span></span></a>
   <div class="nav-links">
     <a href="/support.html">Support</a>
     <a href="/privacy.html">Privacy</a>
